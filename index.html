@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4e48223a36.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h3>Sommy's <span>Tech</span></h3>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front/Backend Developer <br>Graphics Designer</p>
+                <h1>Hello, I'm <span>Sommy</span><br>From Nigeria</h1>
+                <!-- <img src="image/IMG_20230129_125517_298.jpg" alt=""> -->
+            </div>
+            <div class="image">
+                <!-- <img src="image/IMG_20230129_125517_298.jpg"> -->
+            </div>
+
+        </div>
+        <!-- <img src="image/IMG_20230129_125517_298.jpg" alt=""> -->
+    </div>
+    <!-- ------------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/337148007_139128808852441_1789824884559305094_n.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Wanna knopw more about me u will need to know my identity. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphics </span><br>Designing Packages etc</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Digital Marketer</span><br>Affiliate Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Front/Backend Dev. Trainning at IGHUB</li>
+                            <li><span>2021 - 2022</span><br>Team lead at Evangel Seminary</li>
+                            <li><span>2020 - 2021</span><br>Digital Marketing trainning at Starlines Aba</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Front/Backend Dev. Trainning at IGHUB</li>
+                            <li><span>2021</span><br>School of Graphics Lagos</li>
+                            <li><span>2020</span><br>Affiliate Marketing Center Ebonyi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design all kinds of website like E-commerce Web., Porfolio, Blockchain Sites and so on. And deliver it within 14 days and more depending.</p>
+                    <a href="#">Learn more!</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I base on designing Packages and websites. andi deliver it within 7 days and more depending on the kind of design wanted. </p>
+                    <a href="#">Learn more!</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <h2>Digital marketing</h2>
+                    <p>Affiliate Marketing! I'm also an affiliate Marketer, selling other people's products digitally without having them at hand. I also teach Affiliate Marketing.</p>
+                    <a href="#">Learn more!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------portfolio------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work 1.jpg">
+                    <div class="layer">
+                        <h3>Graphics Design App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work 2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                         <p>The app connects you to the talented people around the world.
+                            Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work 3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to customers around the world.
+                            Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sommystarz22@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+2347048210581</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Dating Format General-1-1-2.txt" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <h4>Copyright&copy;Sommy.<i class="fa-solid fa-heart"></i></h4>
+                <p type="button" onclick="document.getElementById('demo').innerHTML = Date()">--Time--</p>
+                <p id="demo"></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        Document.getElementById('demo').innerHTML = Date()
+    </script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
